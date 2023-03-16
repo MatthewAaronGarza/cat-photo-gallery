@@ -8,7 +8,7 @@
 .image {
     width: 300px;
     height: 300px;
-    object-fit: cover;
+    /* object-fit: cover; */
     
     display: flex;
     justify-self: center;
@@ -31,6 +31,6 @@
         
 }
 
-.span-2-column {
-    
+.grid-column-span-2 {
+    grid-column: span 2;
 }
